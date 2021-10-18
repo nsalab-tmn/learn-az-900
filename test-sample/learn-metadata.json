@@ -1,0 +1,46 @@
+{
+    "title": "Test Sample",
+    "materialType": "test",
+    "description": "description in a md format",
+    "difficulty": 3,
+    "duration": "PT1H20M",
+    "tags": ["AWS", "Cloud"],
+    "skills": {},
+    "passingScore": 75,
+    "assetsPath": "assets",
+    "questions": [
+        {
+            "question": "Question 1 text in a md format with image ![Sample Image](./assets/sample-photo.jpeg)",
+            "answerType": "multiChoice",
+            "answers": [
+                {
+                    "answer": "Answer 1", 
+                    "correct": true,
+                    "comment": "explanation of correct answer "
+                },
+                {"answer": "Answer 2"},
+                {"answer": "Answer 3", "correct": true},
+                {"answer": "Answer 4", "correct": false}
+            ]
+        },
+        {
+            "question": "Question 2 text in a md format",
+            "answerType": "singleChoice",
+            "answers": [
+                {"answer": "Answer 1", "correct": true}, 
+                {"answer": "Answer 2"},
+                {"answer": "Answer 3"},
+                {"answer": "Answer 4"}
+            ]
+        },
+        {
+            "question": "Question 3 text in a md format",
+            "answers": [
+                {"answer": "Answer 1"}, 
+                {"answer": "Answer 2"},
+                {"answer": "Answer 3", "correct": true},
+                {"answer": "Answer 4"}
+            ]
+        }
+    ]
+}
