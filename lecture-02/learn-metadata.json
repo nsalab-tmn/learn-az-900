@@ -1,0 +1,11 @@
+{
+    "title": "Основные архитектурные компоненты Azure",
+    "materialType": "lecture",
+    "description": "Знакомство с основными архитектурными компонентами, вычислительными службами, сетевыми компонентами, хранилищами и базами данных",
+    "difficulty": 1,
+    "duration": "PT1H00M",
+    "tags": ["Azure", "Cloud"],
+    "skills": {},
+    "testProjectPath": "lecture.md",
+    "assetsPath": "assets"
+}
