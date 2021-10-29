@@ -1,0 +1,11 @@
+{
+    "title": "Общие функции безопасности и сетевая безопасность Azure",
+    "materialType": "lecture",
+    "description": "Знакомство со средствами и функциями безопасности, а также безопасности сетевого подключения",
+    "difficulty": 1,
+    "duration": "PT1H00M",
+    "tags": ["Azure", "Cloud"],
+    "skills": {},
+    "testProjectPath": "lecture.md",
+    "assetsPath": "assets"
+}
