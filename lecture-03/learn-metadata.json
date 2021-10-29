@@ -1,0 +1,11 @@
+{
+    "title": "Основные решения и инструменты управления Azure",
+    "materialType": "lecture",
+    "description": "Знакомство со службами интернета вещей, больших данных и аналитики, искусственного интеллекта, бессерверных технологий, управления и мониторинга",
+    "difficulty": 1,
+    "duration": "PT1H00M",
+    "tags": ["Azure", "Cloud"],
+    "skills": {},
+    "testProjectPath": "lecture.md",
+    "assetsPath": "assets"
+}
