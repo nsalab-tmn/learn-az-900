@@ -1,0 +1,11 @@
+{
+    "title": "Функции идентификации, управления, конфиденциальности и соответствия требованиям",
+    "materialType": "lecture",
+    "description": "Знакомство основными службами идентификации Azure, методологиями управления Azure, стандартами конфиденциальности, соответствия и защиты данных",
+    "difficulty": 1,
+    "duration": "PT1H00M",
+    "tags": ["Azure", "Cloud"],
+    "skills": {},
+    "testProjectPath": "lecture.md",
+    "assetsPath": "assets"
+}
