@@ -1,0 +1,11 @@
+{
+    "title": "Цены и жизненный цикл Azure",
+    "materialType": "lecture",
+    "description": "Введение в планирование и управление затратами, соглашения об уровнях обслуживания Azure и жизненный цикл служб",
+    "difficulty": 1,
+    "duration": "PT1H00M",
+    "tags": ["Azure", "Cloud"],
+    "skills": {},
+    "testProjectPath": "lecture.md",
+    "assetsPath": "assets"
+}
