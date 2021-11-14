@@ -1,0 +1,73 @@
+{
+    "title": "Инструменты DevOps и GitHub",
+    "materialType": "test",
+    "description": "Проверочное тестирование",
+    "difficulty": 1,
+    "duration": "PT0H30M",
+    "tags": ["Azure", "Cloud"],
+    "skills": {},
+    "passingScore": 0,
+    "assetsPath": "assets",
+    "questions": [
+        {
+            "question": "Какой из следующих вариантов **не может** использоваться для автоматизации процесса CI/CD?",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "Azure Pipelines",
+                    "correct": false,
+                    "comment": "Azure Boards — это гибкое средство управления проектами. Он не может использоваться для автоматизации процесса CI/CD."
+                },
+                {
+                    "answer": "Azure Boards",
+                    "correct": true
+                },
+                {
+                    "answer": "GitHub Actions",
+                    "correct": false,
+                    "comment": "Azure Boards — это гибкое средство управления проектами. Он не может использоваться для автоматизации процесса CI/CD."
+                }
+            ]
+        },
+        {
+            "question": "Какая служба может помочь вам управлять виртуальными машинами, необходимыми разработчикам и тестировщикам для обеспечения работы нового приложения в различных операционных системах?",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "Azure DevTest Labs",
+                    "correct": true
+                },
+                {
+                    "answer": "Azure Test Labs",
+                    "correct": false,
+                    "comment": "Azure DevTest Labs используется для управления виртуальными машинами для тестирования, включая настройку и автоматическую подготовку."
+                },
+                {
+                    "answer": "Azure Repos",
+                    "correct": false,
+                    "comment": "Azure DevTest Labs используется для управления виртуальными машинами для тестирования, включая настройку и автоматическую подготовку."
+                }
+            ]
+        },
+        {
+            "question": "Какому сервису **не имеет** функций для назначения отдельных задач разработчикам?",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "Azure Boards",
+                    "correct": false,
+                    "comment": "Azure Pipelines — это средство CI/CD. В нем отсутствуют функции для назначения задач для работы отдельных разработчиков. Тем не менее, он может автоматизировать другие инструменты для назначения задач пользователям."
+                },
+                {
+                    "answer": "GitHub",
+                    "correct": false,
+                    "comment": "Azure Pipelines — это средство CI/CD. В нем отсутствуют функции для назначения задач для работы отдельных разработчиков. Тем не менее, он может автоматизировать другие инструменты для назначения задач пользователям."
+                },
+                {
+                    "answer": "Azure Pipelines",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}

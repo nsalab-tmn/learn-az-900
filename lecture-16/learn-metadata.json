@@ -1,0 +1,11 @@
+{
+    "title": "Основные службы идентификации Azure",
+    "materialType": "lecture",
+    "description": "Знакомство с механизмами аутентификации и авторизации, многофактороной аутентификацией и условным доступом, единым входом и Azure Active Directory",
+    "difficulty": 1,
+    "duration": "PT1H00M",
+    "tags": ["Azure", "Cloud"],
+    "skills": {},
+    "testProjectPath": "lecture.md",
+    "assetsPath": "assets"
+}
