@@ -1,0 +1,11 @@
+{
+    "title": "Службы баз данных Azure",
+    "materialType": "lecture",
+    "description": "Введение в Azure Cosmos DB, базы данных Azure SQL и управляемые экземпляры SQL Azure",
+    "difficulty": 1,
+    "duration": "PT1H00M",
+    "tags": ["Azure", "Cloud"],
+    "skills": {},
+    "testProjectPath": "lecture.md",
+    "assetsPath": "assets"
+}

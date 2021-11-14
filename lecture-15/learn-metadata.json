@@ -1,0 +1,11 @@
+{
+    "title": "Безопасность сетевого подключения",
+    "materialType": "lecture",
+    "description": "Определение уровней защиты, группы безопасности сети, брандмауэр Azure, защита от атак DDoS в Azure",
+    "difficulty": 1,
+    "duration": "PT1H00M",
+    "tags": ["Azure", "Cloud"],
+    "skills": {},
+    "testProjectPath": "lecture.md",
+    "assetsPath": "assets"
+}

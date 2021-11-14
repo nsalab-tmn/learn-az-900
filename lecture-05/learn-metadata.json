@@ -1,9 +1,9 @@
 {
-    "title": "Функции идентификации, управления, конфиденциальности и соответствия требованиям",
+    "title": "Введение в сетевые службы Azure",
     "materialType": "lecture",
-    "description": "Знакомство основными службами идентификации Azure, методологиями управления Azure, стандартами конфиденциальности, соответствия и защиты данных",
+    "description": "Знакомство с виртуальной сетью Azure, VPN-шлюзом и ExpressRoute",
     "difficulty": 1,
-    "duration": "PT1H00M",
+    "duration": "PT1H30M",
     "tags": ["Azure", "Cloud"],
     "skills": {},
     "testProjectPath": "lecture.md",

@@ -1,0 +1,11 @@
+{
+    "title": "Бессерверные вычисления Azure",
+    "materialType": "lecture",
+    "description": "Обзор служб бессерверных вычислений: Функции Azure и Приложения логики Azure",
+    "difficulty": 1,
+    "duration": "PT0H30M",
+    "tags": ["Azure", "Cloud"],
+    "skills": {},
+    "testProjectPath": "lecture.md",
+    "assetsPath": "assets"
+}

@@ -1,9 +1,9 @@
 {
-    "title": "Общие функции безопасности и сетевая безопасность Azure",
+    "title": "Основные вычислительные продукты Azure",
     "materialType": "lecture",
-    "description": "Знакомство со средствами и функциями безопасности, а также безопасности сетевого подключения",
+    "description": "Знакомство с виртуальными машинами, контейнерами, службой приложений и функциями Azure",
     "difficulty": 1,
-    "duration": "PT1H00M",
+    "duration": "PT1H30M",
     "tags": ["Azure", "Cloud"],
     "skills": {},
     "testProjectPath": "lecture.md",

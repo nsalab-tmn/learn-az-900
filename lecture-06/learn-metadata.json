@@ -1,9 +1,9 @@
 {
-    "title": "Цены и жизненный цикл Azure",
+    "title": "Знакомство с службами хранилищ Azure",
     "materialType": "lecture",
-    "description": "Введение в планирование и управление затратами, соглашения об уровнях обслуживания Azure и жизненный цикл служб",
+    "description": "Обзор дискового, объектного и файлового хранилищ Azure",
     "difficulty": 1,
-    "duration": "PT1H00M",
+    "duration": "PT0H30M",
     "tags": ["Azure", "Cloud"],
     "skills": {},
     "testProjectPath": "lecture.md",

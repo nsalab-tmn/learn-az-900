@@ -1,0 +1,11 @@
+{
+    "title": "Службы Интернета вещей Azure",
+    "materialType": "lecture",
+    "description": "Знакомство со службами интернета вещей: Azure IoT Hub, Azure IoT Central, Azure Sphere",
+    "difficulty": 1,
+    "duration": "PT1H00M",
+    "tags": ["Azure", "Cloud"],
+    "skills": {},
+    "testProjectPath": "lecture.md",
+    "assetsPath": "assets"
+}

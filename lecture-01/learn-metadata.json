@@ -1,9 +1,9 @@
 {
     "title": "Введение в облачные технологии",
     "materialType": "lecture",
-    "description": "Краткий экскурс в облачные технологии и знакомство с Azure",
+    "description": "Краткий экскурс в облачные технологии",
     "difficulty": 1,
-    "duration": "PT1H00M",
+    "duration": "PT0H30M",
     "tags": ["Azure", "Cloud"],
     "skills": {},
     "testProjectPath": "lecture.md",
