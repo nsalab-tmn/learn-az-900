@@ -1,4 +1,4 @@
-# Azure Fundamentals
+
 
 - LECTURE-01 - Введение в облачные технологии
 - LECTURE-02 - Основные концепции Azure
