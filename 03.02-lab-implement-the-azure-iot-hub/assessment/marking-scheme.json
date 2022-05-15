@@ -1,0 +1,29 @@
+{
+    "A": {
+        "name": "Внедрение Центра Интернета вещей Azure",
+        "max_mark": 1,
+        "subCriterions": {
+            "1": {
+                "name": "Внедрение Центра Интернета вещей Azure",
+                "max_mark": 1,
+                "aspects": {
+                    "1": {
+                        "name": "Создание центра Интернета вещей",
+                        "type": "allresource",
+                        "actions":
+                        {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "query": "value[?starts_with(name,'my-hub-group') && type == 'Microsoft.Devices/IotHubs'].name",
+                                    "api_version": "2021-04-01"
+                                }
+                            }
+                        },
+                        "max_mark": 1
+                    }
+                }
+            }
+        }
+    }
+}

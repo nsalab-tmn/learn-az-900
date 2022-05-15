@@ -1,0 +1,31 @@
+{
+    "A": {
+        "name": "Создание виртуальной машины с использованием шаблона",
+        "max_mark": 1,
+        "subCriterions": {
+            "1": {
+                "name": "Создание виртуальной машины с использованием шаблона",
+                "max_mark": 1,
+                "aspects": {
+                    "1": {
+                        "name": "Создание виртуальной машины с использованием шаблона",
+                        "type": "jmespath",
+                        "actions":
+                        {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Compute",
+                                    "client": "virtualMachines",
+                                    "query": "value[?name=='myVMTemplate']",
+                                    "api_version": "2021-03-01"
+                                }
+                            }
+                        },
+                        "max_mark": 1
+                    } 
+                }
+            }
+        }
+    }
+}

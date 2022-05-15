@@ -1,0 +1,30 @@
+{
+    "title": "Создание виртуальной сети",
+    "shortName": "lab04",
+    "materialType": "lab",
+    "description": "В этом пошаговом руководстве мы создадим виртуальную сеть, развернем в ней две виртуальные машины, а затем настроим их, чтобы разрешить одной из виртуальных машин проверить связь с другой внутри этой виртуальной сети.",
+    "assessmentPath": "./assessment/marking-scheme.json",
+    "deploymentPath": "./deploy",
+    "testProjectPath": "./testProject.md",
+    "assetsPath": "assets",
+    "credentialsSchema": {
+        "userName": {
+            "title": "Имя пользователя",
+            "source": "learn_user"
+        },
+        "password": {
+            "title": "Пароль",
+            "source": "learn_password"
+        },
+        "consoleURL": {
+            "title": "Адрес портала",
+            "value": "https://portal.azure.com"
+        }
+    },
+    "duration": "PT1H",
+    "difficulty": 1,
+    "tags": [
+        "Azure"
+    ],
+    "skills": {}
+}

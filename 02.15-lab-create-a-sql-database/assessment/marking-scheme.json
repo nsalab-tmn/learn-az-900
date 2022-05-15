@@ -1,0 +1,57 @@
+{
+    "A": {
+        "name": "Создание базы данных SQL",
+        "max_mark": 2,
+        "subCriterions": {
+            "1": {
+                "name": "Создание базы данных SQL",
+                "max_mark": 2,
+                "aspects": {
+                    "1": {
+                        "name": "Создание сервера базы данных",
+                        "type": "jmespath",
+                        "actions":
+                        {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Sql",
+                                    "client": "servers",
+                                    "query": "value[?starts_with(name,'sqlserver')].name",
+                                    "api_version": "2021-05-01-preview"
+                                }
+                            }
+                        },
+                        "max_mark": 1
+                    },
+                    "2": {
+                        "name": "Создание базы данных",
+                        "type": "jmespath",
+                        "actions":
+                        {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Sql",
+                                    "client": "servers",
+                                    "query": "value[?starts_with(name,'sqlserver')].name",
+                                    "api_version": "2021-05-01-preview"
+                                }
+                            },
+                            "2": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Sql",
+                                    "client": "servers/{}/databases",
+                                    "query": "value[?name=='db1'].name",
+                                    "api_version": "2021-05-01-preview"
+                                }
+                            }
+                        },
+                        "max_mark": 1
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "title": "Внедрение Центра Интернета вещей Azure",
+    "shortName": "lab07",
+    "materialType": "lab",
+    "description": "В этом пошаговом руководстве мы настроим новый Центр Интернета вещей Azure на портале Azure, а затем проверим подлинность подключения к устройству Интернета вещей с помощью онлайн-симулятора устройства Raspberry Pi.",
+    "assessmentPath": "./assessment/marking-scheme.json",
+    "deploymentPath": "deploy",
+    "testProjectPath": "testProject.md",
+    "assetsPath": "assets",
+    "credentialsSchema": {
+        "userName": {
+            "title": "Имя пользователя",
+            "source": "learn_user"
+        },
+        "password": {
+            "title": "Пароль",
+            "source": "learn_password"
+        },
+        "consoleURL": {
+            "title": "Адрес портала",
+            "value": "https://portal.azure.com"
+        }
+    },
+    "duration": "PT1H",
+    "difficulty": 1,
+    "tags": [
+        "Azure"
+    ],
+    "skills": {}
+}

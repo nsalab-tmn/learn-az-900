@@ -1,0 +1,63 @@
+{
+    "A": {
+        "name": "Реализация функций Azure",
+        "max_mark": 2,
+        "subCriterions": {
+            "1": {
+                "name": "Реализация функций Azure",
+                "max_mark": 2,
+                "aspects": {
+                    "1": {
+                        "name": "Создание приложения-функции",
+                        "type": "jmespath",
+                        "actions":
+                        {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Web",
+                                    "client": "sites",
+                                    "query": "value[?starts_with(name,'function-')]",
+                                    "api_version": "2019-08-01"
+                                }
+                            }
+                        },
+                        "max_mark": 0.5
+                    },
+                    "2": {
+                        "name": "Создание функции, активируемой HTTP",
+                        "type": "jmespath",
+                        "actions":
+                        {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Web",
+                                    "client": "sites",
+                                    "query": "value[?starts_with(name,'function-')].name",
+                                    "api_version": "2019-08-01"
+                                }
+                            },
+                            "2": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Web",
+                                    "client": "sites/{}/functions",
+                                    "query": "value[?starts_with(name,'function-') && properties.name=='HttpTrigger1'].name",
+                                    "api_version": "2019-08-01"
+                                }
+                            }
+                        },
+                        "max_mark": 0.5
+                    },
+                    "3": {
+                        "name": "Работоспосбность приложения-функции",
+                        "type": "webrequest",
+                        "nameAnswer": "endpoint_url",
+                        "max_mark": 1
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "A": {
+        "name": "Создание виртуальной машины с использованием CLI",
+        "max_mark": 2,
+        "subCriterions": {
+            "1": {
+                "name": "Настройка Cloud Shell",
+                "max_mark": 2,
+                "aspects": {
+                    "1": {
+                        "name": "Настройка Cloud Shell",
+                        "type": "jmespath",
+                        "actions":
+                        {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Storage",
+                                    "client": "storageAccounts",
+                                    "query": "value[?starts_with(name,'cloudshell')]",
+                                    "api_version": "2021-08-01"
+                                }
+                            }
+                        },
+                        "max_mark": 1
+                    },
+                    "2": {
+                        "name": "Создание виртуальной машины",
+                        "type": "jmespath",
+                        "actions":
+                        {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Compute",
+                                    "client": "virtualMachines",
+                                    "query": "value[?name=='myVMCLI']",
+                                    "api_version": "2021-03-01"
+                                }
+                            }
+                        },
+                        "max_mark": 1
+                    } 
+                }
+            }
+        }
+    }
+}

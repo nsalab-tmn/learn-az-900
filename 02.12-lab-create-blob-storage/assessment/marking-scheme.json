@@ -1,0 +1,30 @@
+{
+    "A": {
+        "name": "Создание хранилища BLOB-объектов",
+        "max_mark": 1,
+        "subCriterions": {
+            "1": {
+                "name": "Создание хранилища BLOB-объектов",
+                "max_mark": 1,
+                "aspects": {
+                    "1": {
+                        "name": "Создание учетной записи хранения",
+                        "type": "jmespath",
+                        "actions": {
+                            "1": {                        
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Storage",
+                                    "client": "storageAccounts",
+                                    "query": "value[?starts_with(name,'storageaccount')]",
+                                    "api_version": "2021-08-01"
+                                }
+                            }
+                        },
+                        "max_mark": 1
+                    }
+                }
+            }
+        }
+    }
+}

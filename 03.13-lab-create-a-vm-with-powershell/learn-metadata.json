@@ -1,0 +1,30 @@
+{
+    "title": "Создание виртуальной машины с использованием PowerShell",
+    "shortName": "lab10",
+    "materialType": "lab",
+    "description": "В этом пошаговом руководстве мы настроим Cloud Shell, воспользуемся модулем Azure PowerShell для создания группы ресурсов и виртуальной машины, а также рассмотрим рекомендации Помощника по Azure.",
+    "assessmentPath": "./assessment/marking-scheme.json",
+    "deploymentPath": "deploy",
+    "testProjectPath": "testProject.md",
+    "assetsPath": "assets",
+    "credentialsSchema": {
+        "userName": {
+            "title": "Имя пользователя",
+            "source": "learn_user"
+        },
+        "password": {
+            "title": "Пароль",
+            "source": "learn_password"
+        },
+        "consoleURL": {
+            "title": "Адрес портала",
+            "value": "https://portal.azure.com"
+        }
+    },
+    "duration": "PT1H",
+    "difficulty": 1,
+    "tags": [
+        "Azure"
+    ],
+    "skills": {}
+}

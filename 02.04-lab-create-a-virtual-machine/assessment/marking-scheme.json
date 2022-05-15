@@ -1,0 +1,36 @@
+{
+    "A": {
+        "name": "Создание виртуальной машины",
+        "max_mark": 2,
+        "subCriterions": {
+            "1": {
+                "name": "Создание виртуальной машины",
+                "max_mark": 2,
+                "aspects": {
+                    "1": {
+                        "name": "Создание виртуальной машины",
+                        "type": "jmespath",
+                        "actions": {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Compute",
+                                    "client": "virtualMachines",
+                                    "query": "value[?name=='myVM']",
+                                    "api_version": "2021-07-01"
+                                }
+                            }
+                        },
+                        "max_mark": 1
+                    },
+                    "2": {
+                        "name": "Работоспособность веб-сервера",
+                        "type": "webrequest",
+                        "nameAnswer": "endpoint_url",
+                        "max_mark": 1
+                    }
+                }
+            }
+        }
+    }
+}

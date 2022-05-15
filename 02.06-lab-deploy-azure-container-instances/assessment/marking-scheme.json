@@ -1,0 +1,36 @@
+{
+    "A": {
+        "name": "Развертывание экземпляров контейнеров Azure",
+        "max_mark": 2,
+        "subCriterions": {
+            "1": {
+                "name": "Развертывание экземпляров контейнеров Azure",
+                "max_mark": 2,
+                "aspects": {
+                    "1": {
+                        "name": "Создание экземпляра контейнера",
+                        "type": "jmespath",
+                        "actions": {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.ContainerInstance",
+                                    "client": "containerGroups",
+                                    "query": "value[?starts_with(name,'mycontainer')]", 
+                                    "api_version": "2021-03-01"
+                                }
+                            }
+                        },
+                        "max_mark": 1
+                    },
+                    "2": {
+                        "name": "Работоспобность экземпляра контейнера",
+                        "type": "webrequest",
+                        "nameAnswer": "endpoint_url",
+                        "max_mark": 1
+                    }
+                }
+            }
+        }
+    }
+}

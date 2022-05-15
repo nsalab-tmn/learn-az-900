@@ -1,0 +1,29 @@
+{
+    "A": {
+        "name": "Внедрение хранилища ключей Azure",
+        "max_mark": 1,
+        "subCriterions": {
+            "1": {
+                "name": "Внедрение хранилища ключей Azure",
+                "max_mark": 1,
+                "aspects": {
+                    "1": {
+                        "name": "Создание хранилища ключей Azure Key Vault",
+                        "type": "allresource",
+                        "actions":
+                        {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "query": "value[?starts_with(name,'keyvaulttest') && type == 'Microsoft.KeyVault/vaults'].name",
+                                    "api_version": "2021-04-01"
+                                }
+                            }
+                        },
+                        "max_mark": 1
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "A": {
+        "name": "Безопасный сетевой трафик",
+        "max_mark": 2,
+        "subCriterions": {
+            "1": {
+                "name": "Безопасный сетевой трафик",
+                "max_mark": 2,
+                "aspects": {
+                    "1": {
+                        "name": "Создание виртуальной машины",
+                        "type": "jmespath",
+                        "actions":
+                        {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Compute",
+                                    "client": "virtualMachines",
+                                    "query": "value[?name=='SimpleWinVM'].name",
+                                    "api_version": "2021-03-01"
+                                }
+                            }
+                        },
+                        "max_mark": 0.5
+                    },
+                    "2": {
+                        "name": "Создание группы безопасности сети",
+                        "type": "jmespath",
+                        "actions":
+                        {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Network",
+                                    "client": "networkSecurityGroups",
+                                    "query": "value[?name=='myNSGSecure'].name",
+                                    "api_version": "2021-03-01"
+                                }
+                            }
+                        },
+                        "max_mark": 0.5
+                    },
+                    "3": {
+                        "name": "Настройка правила входящего порта безопасности для разрешения RDP",
+                        "type": "jmespath",
+                        "actions":
+                        {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Network",
+                                    "client": "networkSecurityGroups/myNSGSecure",
+                                    "query": "properties.securityRules[?name=='AllowRDP' && properties.protocol=='TCP' && properties.destinationPortRange=='3389' && properties.access=='Allow' && properties.direction=='Inbound']",
+                                    "api_version": "2021-03-01"
+                                }
+                            }
+                        },
+                        "max_mark": 0.5
+                    },
+                    "4": {
+                        "name": "Настройка правила исходящего порта безопасности для запрета доступа в Интернет",
+                        "type": "jmespath",
+                        "actions":
+                        {
+                            "1": {
+                                "filterForReseachInResourse":
+                                {
+                                    "provider": "Microsoft.Network",
+                                    "client": "networkSecurityGroups/myNSGSecure",
+                                    "query": "properties.securityRules[?name=='DenyInternet' && properties.access=='Deny' && properties.destinationAddressPrefix=='Internet' && properties.direction=='Outbound']",
+                                    "api_version": "2021-03-01"
+                                }
+                            }
+                        },
+                        "max_mark": 0.5
+                    }
+                }
+            }
+        }
+    }
+}
