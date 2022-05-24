@@ -5,7 +5,7 @@
     "description": "В этой лабораторной работе мы создадим виртуальную машину на портале Azure, подключимся к ней, установим роль веб-сервера и проведем тестирование.",
     "assessmentPath": "./assessment/marking-scheme.json",
     "deploymentPath": "./deploy",
-    "testProjectPath": "./testProject.md",
+    "testProjectPath": "./README.md",
     "assetsPath": "assets",
     "answerSchema": {
         "type": "object",

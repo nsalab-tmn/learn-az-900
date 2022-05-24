@@ -5,7 +5,7 @@
     "description": "В этой лабораторной работе мы создадим веб-приложение, выполняющее контейнер Docker. Этот контейнер содержит приветственное сообщение.",
     "assessmentPath": "./assessment/marking-scheme.json",
     "deploymentPath": "./deploy",
-    "testProjectPath": "./testProject.md",
+    "testProjectPath": "./README.md",
     "assetsPath": "assets",
     "answerSchema": {
         "type": "object",

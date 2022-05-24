@@ -5,7 +5,7 @@
     "description": "В этом пошаговом руководстве мы создадим, настроим и развернем контейнер, используя службу «Экземпляры контейнеров Azure» (ACI) на портале Azure. Этот контейнер представляет собой веб-приложение, отображающее статическую HTML-страницу с приветствием экземпляров контейнеров Azure.",
     "assessmentPath": "./assessment/marking-scheme.json",
     "deploymentPath": "./deploy",
-    "testProjectPath": "./testProject.md",
+    "testProjectPath": "./README.md",
     "assetsPath": "assets",
     "answerSchema": {
         "type": "object",
