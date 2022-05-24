@@ -4,7 +4,7 @@
     "materialType": "lab",
     "description": "В этом пошаговом руководстве мы создадим политику Azure, чтобы ограничить развертывание ресурсов Azure определенным расположением.",
     "deploymentPath": "deploy",
-    "testProjectPath": "testProject.md",
+    "testProjectPath": "./README.md",
     "assetsPath": "assets",
     "credentialsSchema": {
         "userName": {

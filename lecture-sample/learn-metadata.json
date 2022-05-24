@@ -6,6 +6,6 @@
     "duration": "PT1H20M",
     "tags": ["AWS", "Cloud"],
     "skills": {},
-    "testProjectPath": "testProject.md",
+    "testProjectPath": "./README.md",
     "assetsPath": "assets"
 }

@@ -4,7 +4,7 @@
     "materialType": "lab",
     "description": "В этом пошаговом руководстве мы добавим блокировку для группы ресурсов и проверим удаление этой группы ресурсов. Блокировки можно применять в подписке по отношению к группам ресурсов или отдельным ресурсам, чтобы предотвратить случайное удаление или изменение критически важных ресурсов.",
     "deploymentPath": "deploy",
-    "testProjectPath": "testProject.md",
+    "testProjectPath": "./README.md",
     "assetsPath": "assets",
     "credentialsSchema": {
         "userName": {

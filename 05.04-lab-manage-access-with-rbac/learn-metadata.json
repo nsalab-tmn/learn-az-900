@@ -4,7 +4,7 @@
     "materialType": "lab",
     "description": "В этом пошаговом руководстве мы назначим ресурсам роли с разрешениями и просмотрим журналы.",
     "deploymentPath": "deploy",
-    "testProjectPath": "testProject.md",
+    "testProjectPath": "./README.md",
     "assetsPath": "assets",
     "credentialsSchema": {
         "userName": {

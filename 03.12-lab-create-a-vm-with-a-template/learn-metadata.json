@@ -5,7 +5,7 @@
     "description": "В этом пошаговом руководстве мы развернем виртуальную машину с помощью шаблона быстрого запуска и рассмотрим возможности мониторинга.",
     "assessmentPath": "./assessment/marking-scheme.json",
     "deploymentPath": "deploy",
-    "testProjectPath": "testProject.md",
+    "testProjectPath": "./README.md",
     "assetsPath": "assets",
     "credentialsSchema": {
         "userName": {

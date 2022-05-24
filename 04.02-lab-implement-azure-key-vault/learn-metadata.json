@@ -5,7 +5,7 @@
     "description": "В этом пошаговом руководстве мы создадим хранилище ключей Azure, а затем создадим в нем секрет пароля, получив безопасно хранимый и централизованно управляемый пароль для использования с приложениями.",
     "assessmentPath": "./assessment/marking-scheme.json",
     "deploymentPath": "deploy",
-    "testProjectPath": "testProject.md",
+    "testProjectPath": "./README.md",
     "assetsPath": "assets",
     "credentialsSchema": {
         "userName": {

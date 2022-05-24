@@ -5,7 +5,7 @@
     "description": "В этом пошаговом руководстве мы настроим группу безопасности сети.",
     "assessmentPath": "./assessment/marking-scheme.json",
     "deploymentPath": "deploy",
-    "testProjectPath": "testProject.md",
+    "testProjectPath": "./README.md",
     "assetsPath": "assets",
     "credentialsSchema": {
         "userName": {

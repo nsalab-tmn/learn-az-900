@@ -5,7 +5,7 @@
     "description": "В этом пошаговом руководстве мы создадим приложение-функцию для отображения приветственного сообщения Hello при выполнении HTTP-запроса.",
     "assessmentPath": "./assessment/marking-scheme.json",
     "deploymentPath": "deploy",
-    "testProjectPath": "testProject.md",
+    "testProjectPath": "./README.md",
     "assetsPath": "assets",
     "answerSchema": {
         "type": "object",
