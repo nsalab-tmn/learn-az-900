@@ -4,8 +4,8 @@
     "description": "Планирование приобретения служб Azure и оценка стоимости владения, управление затратами",
     "difficulty": 1,
     "duration": "PT1H30M",
-    "tags": ["Azure", "Cloud"],
+    "tags": { "$ref": "../../material-tags.json" },
     "skills": {},
-    "testProjectPath": "README.md",
-    "assetsPath": "assets"
+    "text": { "$ref": "./README.md" },
+    "assets": { "$ref": "./assets" }
 }
