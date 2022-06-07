@@ -3,9 +3,9 @@
     "shortName": "lab15",
     "materialType": "lab",
     "description": "В этом пошаговом руководстве мы добавим блокировку для группы ресурсов и проверим удаление этой группы ресурсов. Блокировки можно применять в подписке по отношению к группам ресурсов или отдельным ресурсам, чтобы предотвратить случайное удаление или изменение критически важных ресурсов.",
-    "deploymentPath": "deploy",
-    "testProjectPath": "./README.md",
-    "assetsPath": "assets",
+    "deploy": { "$ref": "./deploy" },
+    "text": { "$ref": "./README.md" },
+    "assets": { "$ref": "./assets" },
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",
@@ -22,8 +22,6 @@
     },
     "duration": "PT1H",
     "difficulty": 1,
-    "tags": [
-        "Azure"
-    ],	
+    "tags": { "$ref": "../../material-tags.json" },
     "skills": {}
 }

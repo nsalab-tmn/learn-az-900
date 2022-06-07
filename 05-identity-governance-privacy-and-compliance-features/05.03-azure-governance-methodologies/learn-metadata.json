@@ -4,8 +4,8 @@
     "description": "Основы установления правил, политик и обеспечения соблюдения этих правил и политик",
     "difficulty": 1,
     "duration": "PT2H00M",
-    "tags": ["Azure", "Cloud"],
+    "tags": { "$ref": "../../material-tags.json" },
     "skills": {},
-    "testProjectPath": "README.md",
-    "assetsPath": "assets"
+    "text": { "$ref": "./README.md" },
+    "assets": { "$ref": "./assets" }
 }
