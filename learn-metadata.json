@@ -1,7 +1,7 @@
  {
   "title": "Основы облачных технологий в среде Microsoft Azure",
   "materialType": "course",
-  "tags": { "$ref": "../material-tags.json" },
+  "tags": { "$ref": "./material-tags.json" },
   "materials": [
     { "$ref": "./01-cloud-concepts/learn-metadata.json" },
     { "$ref": "./02-core-azure-services/learn-metadata.json" },
