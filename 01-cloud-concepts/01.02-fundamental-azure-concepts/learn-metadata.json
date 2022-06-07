@@ -1,0 +1,11 @@
+{
+    "title": "Основные концепции Azure",
+    "materialType": "lecture",
+    "description": "Облачные модели и модели облачных сервисов, знакомство с Azure",
+    "difficulty": 1,
+    "duration": "PT1H00M",
+    "tags": { "$ref": "../../material-tags.json" },
+    "skills": {},
+    "text": { "$ref": "./README.md" },
+    "assets": { "$ref": "./assets" }
+}

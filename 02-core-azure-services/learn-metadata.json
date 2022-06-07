@@ -1,0 +1,23 @@
+ {
+  "title": "Основные службы Microsoft Azure",
+  "materialType": "course",
+  "tags": { "$ref": "../material-tags.json" },
+  "materials": [
+    { "$ref": "./02.01-core-azure-architectural-components" },
+    { "$ref": "./02.02-core-azure-architectural-components-review-questions" },
+    { "$ref": "./02.03-core-azure-workload-products" },
+    { "$ref": "./02.04-lab-create-a-virtual-machine" },
+    { "$ref": "./02.05-lab-create-a-web-app" },
+    { "$ref": "./02.06-lab-deploy-azure-container-instances" },
+    { "$ref": "./02.07-core-azure-workload-products-review-questions" },
+    { "$ref": "./02.08-azure-networking-services" },
+    { "$ref": "./02.09-lab-create-a-virtual-network" },
+    { "$ref": "./02.10-azure-networking-services-review-questions" },
+    { "$ref": "./02.11-azure-storage-services" },
+    { "$ref": "./02.12-lab-create-blob-storage" },
+    { "$ref": "./02.13-azure-storage-services-review-questions" },
+    { "$ref": "./02.14-azure-database-services" },
+    { "$ref": "./02.15-lab-create-a-sql-database" },
+    { "$ref": "./02.16-azure-database-services-review-questions" }
+  ]
+}
