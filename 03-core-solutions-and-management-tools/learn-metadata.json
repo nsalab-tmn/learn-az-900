@@ -1,0 +1,24 @@
+ {
+  "title": "Основные решения и инструменты управления Microsoft Azure",
+  "materialType": "course",
+  "tags": { "$ref": "../material-tags.json" },
+  "materials": [
+    { "$ref": "./03.01-azure-iot-service/learn-metadata.json" },
+    { "$ref": "./03.02-lab-implement-the-azure-iot-hub/learn-metadata.json" },
+    { "$ref": "./03.03-azure-iot-service-review-questions/learn-metadata.json" },
+    { "$ref": "./03.04-ai-service/learn-metadata.json" },
+    { "$ref": "./03.05-ai-service-review-questions/learn-metadata.json" },
+    { "$ref": "./03.06-azure-serverless-technology/learn-metadata.json" },
+    { "$ref": "./03.07-lab-implement-azure-functions/learn-metadata.json" },
+    { "$ref": "./03.08-azure-serverless-technology-review-questions/learn-metadata.json" },
+    { "$ref": "./03.09-tools-with-devops-and-github/learn-metadata.json" },
+    { "$ref": "./03.10-tools-with-devops-and-github-review-questions/learn-metadata.json" },
+    { "$ref": "./03.11-management-tools/learn-metadata.json" },
+    { "$ref": "./03.12-lab-create-a-vm-with-a-template/learn-metadata.json" },
+    { "$ref": "./03.13-lab-create-a-vm-with-powershell/learn-metadata.json" },
+    { "$ref": "./03.14-lab-create-a-vm-with-the-cli/learn-metadata.json" },
+    { "$ref": "./03.15-management-tools-review-questions/learn-metadata.json" },
+    { "$ref": "./03.16-azure-monitoring-service/learn-metadata.json" },
+    { "$ref": "./03.17-azure-monitoring-service-review-questions/learn-metadata.json" }
+  ]
+}
