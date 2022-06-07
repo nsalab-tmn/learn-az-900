@@ -3,10 +3,10 @@
     "shortName": "lab13",
     "materialType": "lab",
     "description": "В этом пошаговом руководстве мы настроим группу безопасности сети.",
-    "assessmentPath": "./assessment/marking-scheme.json",
-    "deploymentPath": "deploy",
-    "testProjectPath": "./README.md",
-    "assetsPath": "assets",
+    "markingScheme": { "$ref": "./assessment/marking-scheme.json" },
+    "deploy": { "$ref": "./deploy" },
+    "text": { "$ref": "./README.md" },
+    "assets": { "$ref": "./assets" },
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",
@@ -23,8 +23,6 @@
     },
     "duration": "PT1H",
     "difficulty": 1,
-    "tags": [
-        "Azure"
-    ],
+    "tags": { "$ref": "../../material-tags.json" },
     "skills": {}
 }
