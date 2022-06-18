@@ -1,0 +1,11 @@
+{
+    "title": "Основные архитектурные компоненты Azure",
+    "materialType": "test",
+    "description": "Проверочное тестирование",
+    "difficulty": 1,
+    "duration": "PT0H30M",
+    "tags": { "$ref": "../../material-tags.json" },
+    "skills": {},
+    "passingScore": 0,
+    "questions": { "$ref": "./questions-metadata.json" }
+}

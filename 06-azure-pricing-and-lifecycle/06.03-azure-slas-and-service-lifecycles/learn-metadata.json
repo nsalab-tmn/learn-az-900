@@ -1,0 +1,11 @@
+{
+    "title": "Соглашения об уровнях обслуживания Azure и жизненный цикл служб",
+    "materialType": "lecture",
+    "description": "Понятие Соглашения об уровне обслуживания (SLA) и его важность, обзор жизненного цикла служб Azure",
+    "difficulty": 1,
+    "duration": "PT1H00M",
+    "tags": { "$ref": "../../material-tags.json" },
+    "skills": {},
+    "text": { "$ref": "./README.md" },
+    "assets": { "$ref": "./assets" }
+}

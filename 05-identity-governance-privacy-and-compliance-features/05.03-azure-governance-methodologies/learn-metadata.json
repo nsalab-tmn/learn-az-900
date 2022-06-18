@@ -1,0 +1,11 @@
+{
+    "title": "Методологии управления Azure",
+    "materialType": "lecture",
+    "description": "Основы установления правил, политик и обеспечения соблюдения этих правил и политик",
+    "difficulty": 1,
+    "duration": "PT2H00M",
+    "tags": { "$ref": "../../material-tags.json" },
+    "skills": {},
+    "text": { "$ref": "./README.md" },
+    "assets": { "$ref": "./assets" }
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Службы искусственного интеллекта Azure",
+    "materialType": "lecture",
+    "description": "Знакомство со службами искусственного интеллекта: машинное обучение Azure, Azure Cognitive Services, Azure Bot Service",
+    "difficulty": 1,
+    "duration": "PT0H30M",
+    "tags": { "$ref": "../../material-tags.json" },
+    "skills": {},
+    "text": { "$ref": "./README.md" },
+    "assets": { "$ref": "./assets" }
+}

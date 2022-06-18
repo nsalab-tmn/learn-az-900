@@ -1,0 +1,11 @@
+{
+    "title": "Общие функции безопасности Azure",
+    "materialType": "lecture",
+    "description": "Знакомство со средствами и функциями безопасности в облаке и безопасности облака",
+    "difficulty": 1,
+    "duration": "PT1H00M",
+    "tags": { "$ref": "../../material-tags.json" },
+    "skills": {},
+    "text": { "$ref": "./README.md" },
+    "assets": { "$ref": "./assets" }
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Основные вычислительные продукты Azure",
+    "materialType": "lecture",
+    "description": "Знакомство с виртуальными машинами, контейнерами, службой приложений и функциями Azure",
+    "difficulty": 1,
+    "duration": "PT1H30M",
+    "tags": { "$ref": "../../material-tags.json" },
+    "skills": {},
+    "text": { "$ref": "./README.md" },
+    "assets": { "$ref": "./assets" }
+}

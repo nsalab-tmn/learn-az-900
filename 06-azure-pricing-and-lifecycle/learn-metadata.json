@@ -1,0 +1,11 @@
+ {
+  "title": "Ценовая политика и жизненный цикл ресурсов в среде Microsoft Azure",
+  "materialType": "course",
+  "tags": { "$ref": "../material-tags.json" },
+  "materials": [
+    { "$ref": "./06.01-planning-and-cost-management/learn-metadata.json" },
+    { "$ref": "./06.02-planning-and-cost-management-review-questions/learn-metadata.json" },
+    { "$ref": "./06.03-azure-slas-and-service-lifecycles/learn-metadata.json" },
+    { "$ref": "./06.04-azure-slas-and-service-lifecycles-review-questions/learn-metadata.json" }
+  ]
+}

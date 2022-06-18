@@ -1,0 +1,11 @@
+{
+    "title": "Инструменты DevOps и GitHub",
+    "materialType": "lecture",
+    "description": "Введение в инструменты DevOps: Azure DevOps Services, GitHub Actions, Azure DevTest Labs",
+    "difficulty": 1,
+    "duration": "PT0H30M",
+    "tags": { "$ref": "../../material-tags.json" },
+    "skills": {},
+    "text": { "$ref": "./README.md" },
+    "assets": { "$ref": "./assets" }
+}

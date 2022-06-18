@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Вы хотите получать оповещения, которые могут давать рекомендации по улучшению облачной среды. Какая служба может это делать?",
+    "answerType": "singleChoice",
+    "answers": [
+      {
+        "answer": "Помощник Azure",
+        "correct": true
+      },
+      {
+        "answer": "Azure Monitor",
+        "correct": false,
+        "comment": "Помощник Azure может предупреждать вас о доступных новых рекомендациях."
+      },
+      {
+        "answer": "Azure Service Health",
+        "correct": false,
+        "comment": "Помощник Azure может предупреждать вас о доступных новых рекомендациях."
+      }
+    ]
+  },
+  {
+    "question": "Какая служба предоставляет официальный анализ основных причин сбоя для инцидентов Azure?",
+    "answerType": "singleChoice",
+    "answers": [
+      {
+        "answer": "Помощник Azure",
+        "correct": false,
+        "comment": "Служба работоспособности Azure предоставляет журнал инцидентов для совместного использования заинтересованным сторонам."
+      },
+      {
+        "answer": "Azure Monitor",
+        "correct": false,
+        "comment": "Служба работоспособности Azure предоставляет журнал инцидентов для совместного использования заинтересованным сторонам."
+      },
+      {
+        "answer": "Azure Service Health",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "question": "Какая служба является платформой, которая поддерживает Application Insights, мониторинг виртуальных машин, контейнеров и Kubernetes?",
+    "answerType": "singleChoice",
+    "answers": [
+      {
+        "answer": "Помощник Azure",
+        "correct": false,
+        "comment": "Azure Monitor — это платформа, используемая Application Insights."
+      },
+      {
+        "answer": "Azure Monitor",
+        "correct": true
+      },
+      {
+        "answer": "Azure Service Health",
+        "correct": false,
+        "comment": "Azure Monitor — это платформа, используемая Application Insights."
+      }
+    ]
+  }
+]

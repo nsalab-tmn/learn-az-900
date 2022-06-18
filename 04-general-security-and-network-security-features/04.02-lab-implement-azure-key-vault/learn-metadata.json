@@ -1,0 +1,28 @@
+{
+    "title": "Внедрение хранилища ключей Azure",
+    "shortName": "lab12",
+    "materialType": "lab",
+    "description": "В этом пошаговом руководстве мы создадим хранилище ключей Azure, а затем создадим в нем секрет пароля, получив безопасно хранимый и централизованно управляемый пароль для использования с приложениями.",
+    "markingScheme": { "$ref": "./assessment/marking-scheme.json" },
+    "deploy": { "$ref": "./deploy" },
+    "text": { "$ref": "./README.md" },
+    "assets": { "$ref": "./assets" },
+    "credentialsSchema": {
+        "userName": {
+            "title": "Имя пользователя",
+            "source": "learn_user"
+        },
+        "password": {
+            "title": "Пароль",
+            "source": "learn_password"
+        },
+        "consoleURL": {
+            "title": "Адрес портала",
+            "value": "https://portal.azure.com"
+        }
+    },
+    "duration": "PT1H",
+    "difficulty": 1,
+    "tags": { "$ref": "../../material-tags.json" },
+    "skills": {}
+}

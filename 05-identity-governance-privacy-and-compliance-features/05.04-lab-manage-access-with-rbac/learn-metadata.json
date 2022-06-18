@@ -1,0 +1,27 @@
+{
+    "title": "Управление доступом с помощью RBAC",
+    "shortName": "lab14",
+    "materialType": "lab",
+    "description": "В этом пошаговом руководстве мы назначим ресурсам роли с разрешениями и просмотрим журналы.",
+    "deploy": { "$ref": "./deploy" },
+    "text": { "$ref": "./README.md" },
+    "assets": { "$ref": "./assets" },
+    "credentialsSchema": {
+        "userName": {
+            "title": "Имя пользователя",
+            "source": "learn_user"
+        },
+        "password": {
+            "title": "Пароль",
+            "source": "learn_password"
+        },
+        "consoleURL": {
+            "title": "Адрес портала",
+            "value": "https://portal.azure.com"
+        }
+    },
+    "duration": "PT1H",
+    "difficulty": 1,
+    "tags": { "$ref": "../../material-tags.json" },
+    "skills": {}
+}

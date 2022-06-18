@@ -1,0 +1,16 @@
+ {
+  "title": "Функции идентификации, управления, конфиденциальности и соответствия в среде Microsoft Azure",
+  "materialType": "course",
+  "tags": { "$ref": "../material-tags.json" },
+  "materials": [
+    { "$ref": "./05.01-core-azure-identity-services/learn-metadata.json" },
+    { "$ref": "./05.02-core-azure-identity-services-review-questions/learn-metadata.json" },
+    { "$ref": "./05.03-azure-governance-methodologies/learn-metadata.json" },
+    { "$ref": "./05.04-lab-manage-access-with-rbac/learn-metadata.json" },
+    { "$ref": "./05.05-lab-manage-resource-locks/learn-metadata.json" },
+    { "$ref": "./05.06-lab-create-an-azure-policy/learn-metadata.json" },
+    { "$ref": "./05.07-azure-governance-methodologies-review-questions/learn-metadata.json" },
+    { "$ref": "./05.08-privacy,-compliance,-and-data-protection-standards/learn-metadata.json" },
+    { "$ref": "./05.09-privacy,-compliance,-and-data-protection-standards-review-questions/learn-metadata.json" }
+  ]
+}

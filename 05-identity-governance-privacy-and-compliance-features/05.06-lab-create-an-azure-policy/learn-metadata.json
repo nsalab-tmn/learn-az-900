@@ -1,0 +1,27 @@
+{
+    "title": "Создание политики Azure",
+    "shortName": "lab16",
+    "materialType": "lab",
+    "description": "В этом пошаговом руководстве мы создадим политику Azure, чтобы ограничить развертывание ресурсов Azure определенным расположением.",
+    "deploy": { "$ref": "./deploy" },
+    "text": { "$ref": "./README.md" },
+    "assets": { "$ref": "./assets" },
+    "credentialsSchema": {
+        "userName": {
+            "title": "Имя пользователя",
+            "source": "learn_user"
+        },
+        "password": {
+            "title": "Пароль",
+            "source": "learn_password"
+        },
+        "consoleURL": {
+            "title": "Адрес портала",
+            "value": "https://portal.azure.com"
+        }
+    },
+    "duration": "PT1H",
+    "difficulty": 1,
+    "tags": { "$ref": "../../material-tags.json" },
+    "skills": {}
+}

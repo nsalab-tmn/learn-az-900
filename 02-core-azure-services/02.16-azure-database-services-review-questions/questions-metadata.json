@@ -1,0 +1,27 @@
+[
+  {
+    "question": "Ваша компания использует стек LAMP для нескольких своих веб-сайтов. Какой вариант идеально подходит для миграции?",
+    "answerType": "singleChoice",
+    "answers": [
+      {
+        "answer": "База данных Azure для MySQL",
+        "correct": true
+      },
+      {
+        "answer": "Azure Cosmos DB",
+        "correct": false,
+        "comment": "База данных Azure для MySQL является логическим выбором для существующих приложений стека LAMP."
+      },
+      {
+        "answer": "Azure SQL Database",
+        "correct": false,
+        "comment": "База данных Azure для MySQL является логическим выбором для существующих приложений стека LAMP."
+      },
+      {
+        "answer": "База данных Azure для PostgreSQL",
+        "correct": false,
+        "comment": "База данных Azure для MySQL является логическим выбором для существующих приложений стека LAMP."
+      }
+    ]
+  }
+]

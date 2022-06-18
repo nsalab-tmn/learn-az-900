@@ -1,0 +1,12 @@
+{
+    "title": "Введение в планирование и управление затратами",
+    "materialType": "test",
+    "description": "Проверочное тестирование",
+    "difficulty": 1,
+    "duration": "PT0H30M",
+    "tags": { "$ref": "../../material-tags.json" },
+    "skills": {},
+    "passingScore": 0,
+    "assets": { "$ref": "./assets" },
+    "questions": { "$ref": "./questions-metadata.json" }
+}

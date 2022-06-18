@@ -1,0 +1,13 @@
+ {
+  "title": "Общие функции безопасности и сетевой безопасности Microsoft Azure",
+  "materialType": "course",
+  "tags": { "$ref": "../material-tags.json" },
+  "materials": [
+    { "$ref": "./04.01-security-tools-and-features/learn-metadata.json" },
+    { "$ref": "./04.02-lab-implement-azure-key-vault/learn-metadata.json" },
+    { "$ref": "./04.03-security-tools-and-features-review-questions/learn-metadata.json" },
+    { "$ref": "./04.04-secure-network-connectivity/learn-metadata.json" },
+    { "$ref": "./04.05-lab-secure-network-traffic/learn-metadata.json" },
+    { "$ref": "./04.06-secure-network-connectivity-review-questions/learn-metadata.json" }
+  ]
+}

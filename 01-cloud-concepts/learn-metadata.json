@@ -1,0 +1,10 @@
+ {
+  "title": "Основные концепции облачных технологий",
+  "materialType": "course",
+  "tags": { "$ref": "../material-tags.json" },
+  "materials": [
+    { "$ref": "./01.01-introduction-to-azure-fundamentals/learn-metadata.json" },
+    { "$ref": "./01.02-fundamental-azure-concepts/learn-metadata.json" },
+    { "$ref": "./01.03-fundamental-azure-concepts-review-questions/learn-metadata.json" }
+  ]
+}

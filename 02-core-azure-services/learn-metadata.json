@@ -1,0 +1,23 @@
+ {
+  "title": "Основные службы Microsoft Azure",
+  "materialType": "course",
+  "tags": { "$ref": "../material-tags.json" },
+  "materials": [
+    { "$ref": "./02.01-core-azure-architectural-components/learn-metadata.json" },
+    { "$ref": "./02.02-core-azure-architectural-components-review-questions/learn-metadata.json" },
+    { "$ref": "./02.03-core-azure-workload-products/learn-metadata.json" },
+    { "$ref": "./02.04-lab-create-a-virtual-machine/learn-metadata.json" },
+    { "$ref": "./02.05-lab-create-a-web-app/learn-metadata.json" },
+    { "$ref": "./02.06-lab-deploy-azure-container-instances/learn-metadata.json" },
+    { "$ref": "./02.07-core-azure-workload-products-review-questions/learn-metadata.json" },
+    { "$ref": "./02.08-azure-networking-services/learn-metadata.json" },
+    { "$ref": "./02.09-lab-create-a-virtual-network/learn-metadata.json" },
+    { "$ref": "./02.10-azure-networking-services-review-questions/learn-metadata.json" },
+    { "$ref": "./02.11-azure-storage-services/learn-metadata.json" },
+    { "$ref": "./02.12-lab-create-blob-storage/learn-metadata.json" },
+    { "$ref": "./02.13-azure-storage-services-review-questions/learn-metadata.json" },
+    { "$ref": "./02.14-azure-database-services/learn-metadata.json" },
+    { "$ref": "./02.15-lab-create-a-sql-database/learn-metadata.json" },
+    { "$ref": "./02.16-azure-database-services-review-questions/learn-metadata.json" }
+  ]
+}
