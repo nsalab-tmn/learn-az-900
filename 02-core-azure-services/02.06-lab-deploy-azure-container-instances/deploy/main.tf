@@ -17,6 +17,10 @@ provider "azurerm" {
 resource "azurerm_resource_group" "learn" {
   name     = "rg-${var.tp_name}-${var.instance_id}"
   location = "eastus"
+  tags     = {
+    Environment: "${var.tp_learn_env}"
+    Learn_User: "${var.tp_learn_user}"
+  }
 }
 
 resource "random_string" "learn" {
