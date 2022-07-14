@@ -19,7 +19,7 @@ resource "azurerm_resource_group" "learn" {
   location = "eastus"
   tags     = {
     Environment: "${var.tp_learn_env}"
-    Learn_User: "${var.tp_learn_user}"
+    Owner: "${var.tp_learn_user}"
   }
 }
 
