@@ -1,0 +1,13 @@
+- name: Проверка коммутации
+  code: s1
+  type: check
+  result:
+  device: local
+  action_chain:
+    - action: verify_output
+      action_vars:
+        command: az login --service-principal --username {client_id} --password {client_secret} --tenant {tenant_id}
+        command: az vm list --resource-group {learn_rg}--query "[?name=='myVM']"
+        tags_are_present: True
+        assert_tags:
+          - "OK"
