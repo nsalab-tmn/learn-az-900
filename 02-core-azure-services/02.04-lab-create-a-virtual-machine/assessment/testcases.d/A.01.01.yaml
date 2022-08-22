@@ -7,7 +7,7 @@
     - action: verify_output
       action_vars:
         command: az login --service-principal --username {client_id} --password {client_secret} --tenant {tenant_id}
-        command: az vm list --resource-group {learn_rg}--query "[?name=='myVM']"
+        command: az vm list --resource-group {learn_rg} --query "[?name=='myVM']"
         tags_are_present: True
         assert_tags:
           - "OK"
