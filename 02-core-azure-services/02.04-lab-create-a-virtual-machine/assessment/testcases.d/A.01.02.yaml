@@ -6,7 +6,7 @@
   action_chain:
     - action: validate_web_response
       action_vars:
-        command: az vm list --resource-group {learn_rg}--query "[?name=='myVM']"
+        command: az vm list --resource-group {learn_rg} --query "[?name=='myVM']"
         tags_are_present: True
         assert_tags:
-          - "OK"
+          - "name": "myVM"
