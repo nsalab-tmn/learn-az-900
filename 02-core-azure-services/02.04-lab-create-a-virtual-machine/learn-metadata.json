@@ -13,7 +13,7 @@
         "type": "object",
         "additionalProperties": false,
         "properties": {
-            "endpoint_url": {
+            "answer_endpoint_url": {
                 "type": "string",
                 "title": "URL-адрес веб-сервера",
                 "placeholder": "https://example.com"
