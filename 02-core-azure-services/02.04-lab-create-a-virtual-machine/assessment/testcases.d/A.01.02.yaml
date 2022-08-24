@@ -6,5 +6,5 @@
   action_chain:
     - action: validate_web_response
       action_vars:
-        name: {answer_endpoint_url}
+        name: "{answer_endpoint_url}"
         assert_code: 200
