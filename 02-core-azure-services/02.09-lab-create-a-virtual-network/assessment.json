@@ -1,0 +1,5 @@
+{
+    "./assessment/ms.yaml":	"https://github.com/nsalab-tmn/learn-az-900/blob/02-core-azure-services/02.06-lab-deploy-azure-container-instances/assessment/ms.yaml?ref=assessent_with_pyats",
+    "./assessment/testbed.yaml":	"https://github.com/nsalab-tmn/learn-az-900/blob/02-core-azure-services/02.06-lab-deploy-azure-container-instances/assessment/testbed.yaml?ref=assessent_with_pyats",
+    "./assessment/parameters.yaml":	"https://github.com/nsalab-tmn/learn-az-900/blob/02-core-azure-services/02.06-lab-deploy-azure-container-instances/assessment/parameters.yaml?ref=assessent_with_pyats"
+}

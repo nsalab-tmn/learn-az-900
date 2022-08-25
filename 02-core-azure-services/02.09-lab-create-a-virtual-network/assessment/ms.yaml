@@ -1,0 +1,21 @@
+Criterions:
+  - code: A
+    name: Развертывание экземпляров контейнеров Azure
+    subCriterions:
+      - name: Развертывание экземпляров контейнеров Azure
+        code: 1
+        aspects:
+          - name: "Создание экземпляра контейнера"
+            code: 1
+            description: 
+            skills: []
+            max_mark: 1
+            steps: !include A.01.01.yaml
+            result:
+          - name: "Работоспобность экземпляра контейнера"
+            code: 2
+            description: 
+            skills: []
+            max_mark: 1
+            steps: !include A.01.02.yaml
+            result:
