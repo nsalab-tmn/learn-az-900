@@ -1,0 +1,21 @@
+Criterions:
+  - code: A
+    name: Создание веб-приложения
+    subCriterions:
+      - name: Создание веб-приложения
+        code: 1
+        aspects:
+          - name: "Создание веб-приложения"
+            code: 1
+            description: 
+            skills: []
+            max_mark: 1
+            steps: !include A.01.01.yaml
+            result:
+          - name: "Работоспосбность веб-приложения"
+            code: 2
+            description: 
+            skills: []
+            max_mark: 1
+            steps: !include A.01.02.yaml
+            result:
