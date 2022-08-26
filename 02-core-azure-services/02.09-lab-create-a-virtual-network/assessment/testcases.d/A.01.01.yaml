@@ -10,7 +10,7 @@
           - az login --service-principal --username {client_id} --password {client_secret} --tenant {tenant_id}
     - action: verify_output
       action_vars:
-        command: az vnet list --resource-group {learn_rg} --query "[?name=='vnet1']"
+        command: az network vnet list --resource-group {learn_rg} --query "[?name=='vnet1']"
         tags_are_present: True
         assert_tags:
           - "vnet1"
