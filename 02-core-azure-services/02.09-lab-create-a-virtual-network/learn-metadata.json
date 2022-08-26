@@ -8,6 +8,7 @@
     "assets": { "$ref": "./assets" },
     "assessment": { "$ref": "./assessment.json" },
     "testcase": { "$ref": "./assessment/testcases.d" },
+    "asyncMarking": true,
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",
