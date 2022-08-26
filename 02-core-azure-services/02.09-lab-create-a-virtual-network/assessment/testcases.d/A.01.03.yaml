@@ -10,7 +10,7 @@
           - az login --service-principal --username {client_id} --password {client_secret} --tenant {tenant_id}
     - action: verify_output
       action_vars:
-        command: az vm list --resource-group {learn_rg} --query "[?name=='vm1']"
+        command: az vm list --resource-group {learn_rg} --query "[?name=='vm2']"
         tags_are_present: True
         assert_tags:
-          - "vm1"
+          - "vm2"
