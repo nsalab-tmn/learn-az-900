@@ -3,10 +3,11 @@
     "shortName": "lab05",
     "materialType": "lab",
     "description": "В этом пошаговом руководстве мы создадим учетную запись хранения, а затем будем работать с файлами хранилища BLOB-объектов.",
-    "markingScheme": { "$ref": "./assessment/marking-scheme.json" },
     "deploy": { "$ref": "./deploy" },
     "text": { "$ref": "./README.md" },
     "assets": { "$ref": "./assets" },
+    "assessment": { "$ref": "./assessment.json" },
+    "testcase": { "$ref": "./assessment/testcases.d" },
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",
