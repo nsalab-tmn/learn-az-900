@@ -3,10 +3,11 @@
     "shortName": "lab04",
     "materialType": "lab",
     "description": "В этом пошаговом руководстве мы создадим виртуальную сеть, развернем в ней две виртуальные машины, а затем настроим их, чтобы разрешить одной из виртуальных машин проверить связь с другой внутри этой виртуальной сети.",
-    "markingScheme": { "$ref": "./assessment/marking-scheme.json" },
     "deploy": { "$ref": "./deploy" },
     "text": { "$ref": "./README.md" },
     "assets": { "$ref": "./assets" },
+    "assessment": { "$ref": "./assessment.json" },
+    "testcase": { "$ref": "./assessment/testcases.d" },
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",

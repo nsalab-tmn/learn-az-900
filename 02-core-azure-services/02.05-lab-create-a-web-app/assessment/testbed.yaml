@@ -1,5 +1,5 @@
 testbed:
-  name: lab01
+  name: lab02
 
 devices:
   local:
