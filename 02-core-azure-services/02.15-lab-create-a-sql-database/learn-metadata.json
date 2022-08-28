@@ -3,10 +3,12 @@
     "shortName": "lab06",
     "materialType": "lab",
     "description": "В этом пошаговом руководстве мы создадим базу данных SQL в Azure, а затем запросим данные в этой базе данных.",
-    "markingScheme": { "$ref": "./assessment/marking-scheme.json" },
     "deploy": { "$ref": "./deploy" },
     "text": { "$ref": "./README.md" },
     "assets": { "$ref": "./assets" },
+    "assessment": { "$ref": "./assessment.json" },
+    "testcase": { "$ref": "./assessment/testcases.d" },
+    "asyncMarking": true,
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",
