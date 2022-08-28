@@ -1,0 +1,15 @@
+Criterions:
+  - code: A
+    name: Создание хранилища BLOB-объектов
+    subCriterions:
+      - name: Создание хранилища BLOB-объектов
+        code: 1
+        aspects:
+          - name: Создание учетной записи хранения
+            code: 1
+            description: 
+            skills: []
+            max_mark: 1
+            steps: !include A.01.01.yaml
+            result:
+         
