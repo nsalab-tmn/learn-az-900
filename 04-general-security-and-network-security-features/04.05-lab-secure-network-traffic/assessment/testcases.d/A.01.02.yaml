@@ -1,4 +1,4 @@
-- name: Создание виртуальной машины
+- name: Создание группы безопасности сети
   code: s1
   type: check
   result:
@@ -10,7 +10,7 @@
           - az login --service-principal --username {client_id} --password {client_secret} --tenant {tenant_id}
     - action: verify_output
       action_vars:
-        command: az vm list --resource-group {learn_rg} --query "[?name=='SimpleWinVM']"
+        command: az network nsg list --resource-group {learn_rg} --query "[?name=='myNSGSecure']"
         tags_are_present: True
         assert_tags:
-          - "SimpleWinVM"
+          - "myNSGSecure"
