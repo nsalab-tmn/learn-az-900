@@ -1,0 +1,5 @@
+{
+    "./assessment/ms.yaml":	"https://github.com/nsalab-tmn/learn-az-900/blob/04-general-security-and-network-security-features/04.02-lab-implement-azure-key-vault/assessment/ms.yaml?ref=assessent_with_pyats",
+    "./assessment/testbed.yaml":	"https://github.com/nsalab-tmn/learn-az-900/blob/04-general-security-and-network-security-features/04.02-lab-implement-azure-key-vault/assessment/testbed.yaml?ref=assessent_with_pyats",
+    "./assessment/parameters.yaml":	"https://github.com/nsalab-tmn/learn-az-900/blob/04-general-security-and-network-security-features/04.02-lab-implement-azure-key-vault/assessment/parameters.yaml?ref=assessent_with_pyats"
+}
