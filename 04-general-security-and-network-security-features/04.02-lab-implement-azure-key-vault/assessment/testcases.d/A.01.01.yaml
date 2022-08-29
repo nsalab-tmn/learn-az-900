@@ -13,4 +13,4 @@
         command: az keyvault list --resource-group {learn_rg} --query "[?starts_with(name,'keyvaulttest')].name"
         tags_are_present: True
         assert_tags:
-          - "cloudshell"
+          - "keyvaulttest"
