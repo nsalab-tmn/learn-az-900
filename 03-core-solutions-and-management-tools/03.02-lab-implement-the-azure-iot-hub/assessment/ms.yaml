@@ -1,0 +1,14 @@
+Criterions:
+  - code: A
+    name: Внедрение Центра Интернета вещей Azure
+    subCriterions:
+      - name: Внедрение Центра Интернета вещей Azure
+        code: 1
+        aspects:
+          - name: Создание центра Интернета вещей
+            code: 1
+            description: 
+            skills: []
+            max_mark: 1
+            steps: !include A.01.01.yaml
+            result:
