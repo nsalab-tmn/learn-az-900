@@ -3,10 +3,12 @@
     "shortName": "lab11",
     "materialType": "lab",
     "description": "В этом пошаговом руководстве мы настроим Cloud Shell, воспользуемся Azure CLI для создания группы ресурсов и виртуальной машины, а также рассмотрим рекомендации Помощника по Azure.",
-    "markingScheme": { "$ref": "./assessment/marking-scheme.json" },
     "deploy": { "$ref": "./deploy" },
     "text": { "$ref": "./README.md" },
     "assets": { "$ref": "./assets" },
+    "assessment": { "$ref": "./assessment.json" },
+    "testcase": { "$ref": "./assessment/testcases.d" },
+    "asyncMarking": true,
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",

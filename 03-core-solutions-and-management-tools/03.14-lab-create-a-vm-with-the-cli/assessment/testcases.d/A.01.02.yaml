@@ -1,4 +1,4 @@
-- name: Настройка Cloud Shell
+- name: Создание виртуальной машины
   code: s1
   type: check
   result:
@@ -10,7 +10,7 @@
           - az login --service-principal --username {client_id} --password {client_secret} --tenant {tenant_id}
     - action: verify_output
       action_vars:
-        command: az storage account list --resource-group {learn_rg} --query "[?starts_with(name,'cloudshell')]"
+        command: az vm list --resource-group {learn_rg} --query "[?name=='myVMCLI']"
         tags_are_present: True
         assert_tags:
-          - "cloudshell"
+          - "myVMCLI"
