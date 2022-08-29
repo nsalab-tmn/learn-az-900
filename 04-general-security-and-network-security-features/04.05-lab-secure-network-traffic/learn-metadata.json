@@ -3,10 +3,12 @@
     "shortName": "lab13",
     "materialType": "lab",
     "description": "В этом пошаговом руководстве мы настроим группу безопасности сети.",
-    "markingScheme": { "$ref": "./assessment/marking-scheme.json" },
     "deploy": { "$ref": "./deploy" },
     "text": { "$ref": "./README.md" },
     "assets": { "$ref": "./assets" },
+    "assessment": { "$ref": "./assessment.json" },
+    "testcase": { "$ref": "./assessment/testcases.d" },
+    "asyncMarking": true,
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",

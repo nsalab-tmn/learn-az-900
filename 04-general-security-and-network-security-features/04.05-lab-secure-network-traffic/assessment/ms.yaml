@@ -1,0 +1,35 @@
+Criterions:
+  - code: A
+    name: Безопасный сетевой трафик
+    subCriterions:
+      - name: Безопасный сетевой трафик
+        code: 1
+        aspects:
+          - name: Создание виртуальной машины
+            code: 1
+            description: 
+            skills: []
+            max_mark: 0.5
+            steps: !include A.01.01.yaml
+            result:
+          - name: Создание группы безопасности сети
+            code: 1
+            description: 
+            skills: []
+            max_mark: 0.5
+            steps: !include A.01.01.yaml
+            result:
+          - name: Настройка правила входящего порта безопасности для разрешения RDP
+            code: 1
+            description: 
+            skills: []
+            max_mark: 0.5
+            steps: !include A.01.01.yaml
+            result:
+          - name: Настройка правила исходящего порта безопасности для запрета доступа в Интернет
+            code: 1
+            description: 
+            skills: []
+            max_mark: 0.5
+            steps: !include A.01.01.yaml
+            result:
