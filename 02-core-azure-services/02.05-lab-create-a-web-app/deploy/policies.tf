@@ -1,5 +1,5 @@
 resource "azurerm_policy_definition" "allowed-location-definition" {
-  name         = "location-policy-definition-${var.tp_name}-${var.instance_id}"
+  name         = "location-policy-definition-${var.instance_id}"
   policy_type  = "Custom"
   mode         = "All"
   display_name  = "eastus-location-policy"
@@ -19,7 +19,7 @@ POLICY_RULE
 }
 
 resource "azurerm_policy_definition" "allowed-serverfarms-os-definition" {   
-  name         = "serverfarms-os-policy-definition-${var.tp_name}-${var.instance_id}"
+  name         = "serverfarms-os-policy-definition-${var.instance_id}"
   policy_type  = "Custom"
   mode         = "All"
   display_name  = "serverfarms-os-policy"
@@ -47,7 +47,7 @@ POLICY_RULE
 }
 
 resource "azurerm_policy_definition" "allowed-serverfarms-sku-definition" {   
-  name         = "serverfarms-sku-policy-definition-${var.tp_name}-${var.instance_id}"
+  name         = "serverfarms-sku-policy-definition-${var.instance_id}"
   policy_type  = "Custom"
   mode         = "All"
   display_name  = "serverfarms-sku-policy"

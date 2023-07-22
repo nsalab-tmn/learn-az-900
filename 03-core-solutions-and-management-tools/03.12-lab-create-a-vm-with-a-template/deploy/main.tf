@@ -15,7 +15,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "learn" {
-  name     = "rg-${var.tp_name}-${var.instance_id}"
+  name     = "rg-${var.instance_id}"
   location = "eastus"
   tags     = {
     Environment: "${var.tp_learn_env}"
@@ -34,9 +34,9 @@ resource "random_string" "learn" {
 }
 
 resource "azuread_user" "learn" {
-  user_principal_name = "${var.tp_name}-${var.instance_id}@nsalab.org"
-  display_name        = "${var.tp_name}-${var.instance_id}"
-  mail_nickname       = "${var.tp_name}-${var.instance_id}"
+  user_principal_name = "${var.instance_id}@nsalab.org"
+  display_name        = "${var.instance_id}"
+  mail_nickname       = "${var.instance_id}"
   password            = random_string.learn.result
 }
 
@@ -47,13 +47,13 @@ resource "azurerm_role_assignment" "learn" {
 }
 
 resource "azurerm_resource_group_policy_assignment" "allowed-location-assignment" {
-  name                 = "policy-location-assignment-${var.tp_name}-${var.instance_id}"
+  name                 = "policy-location-assignment-${var.instance_id}"
   resource_group_id    = azurerm_resource_group.learn.id
   policy_definition_id = azurerm_policy_definition.allowed-location-definition.id
 }
 
 resource "azurerm_resource_group_policy_assignment" "allowed-sku-assignment" {
-  name                 = "sku-assignment-${var.tp_name}-${var.instance_id}"
+  name                 = "sku-assignment-${var.instance_id}"
   resource_group_id    = azurerm_resource_group.learn.id
   policy_definition_id = azurerm_policy_definition.allowed-sku-definition.id
 }

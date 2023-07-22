@@ -1,5 +1,5 @@
 resource "azurerm_policy_definition" "allowed-location-definition" {
-  name         = "location-policy-definition-${var.tp_name}-${var.instance_id}"
+  name         = "location-policy-definition-${var.instance_id}"
   policy_type  = "Custom"
   mode         = "All"
   display_name  = "eastus-location-policy"
