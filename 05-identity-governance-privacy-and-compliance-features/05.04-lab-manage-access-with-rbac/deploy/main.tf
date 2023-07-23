@@ -12,6 +12,10 @@ terraform {
 
 provider "azurerm" {
   features {}
+  subscription_id = var.AZURE_SUBSCRIPTION_ID
+  client_id       = var.AZURE_SERVICE_PRINCIPLE_ID
+  client_secret   = var.AZURE_SERVICE_PRICIPLE_PASSWORD
+  tenant_id       = var.AZURE_TENANT_ID
 }
 
 resource "azurerm_resource_group" "learn" {
