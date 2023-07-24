@@ -1,0 +1,17 @@
+testbed:
+  name: lab10
+
+devices:
+  local:
+    os: linux
+    type: linux
+    connections:
+      a:
+        protocol: ssh
+        ip: 127.0.0.1
+        port: 22
+        ssh_options: -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o TCPKeepAlive=yes -o ServerAliveInterval=10
+        credentials:
+          default:
+            username: 'assessment'
+            password: 'assessment'  

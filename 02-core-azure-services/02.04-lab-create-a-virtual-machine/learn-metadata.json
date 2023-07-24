@@ -2,16 +2,17 @@
     "title": "Создание виртуальной машины на портале",
     "shortName": "lab01",
     "materialType": "lab",
-    "description": "В этой лабораторной работе мы создадим виртуальную машину на портале Azure, подключимся к ней, установим роль веб-сервера и проведем тестирование.",
-    "markingScheme": { "$ref": "./assessment/marking-scheme.json" },
+    "description": "Виртуальные машины являются одним из ключевых вычислительных ресурсов, которые предоставляются публичными облачными провайдерами и позволяют начать переход от использования собственной инфраструктуры к концепции «инфраструктура как сервис». \n\nВ данной лабораторной работе вы тестируете возможности создания виртуальных машин средствами портала облачного провайдера.",
     "deploy": { "$ref": "./deploy" },
     "text": { "$ref": "./README.md" },
     "assets": { "$ref": "./assets" },
+    "assessment": { "$ref": "./assessment.json" },
+    "testcase": { "$ref": "./assessment/testcases.d" },
     "answerSchema": {
         "type": "object",
         "additionalProperties": false,
         "properties": {
-            "endpoint_url": {
+            "answer_endpoint_url": {
                 "type": "string",
                 "title": "URL-адрес веб-сервера",
                 "placeholder": "https://example.com"

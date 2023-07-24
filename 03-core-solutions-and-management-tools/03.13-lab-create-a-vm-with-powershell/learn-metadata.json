@@ -2,11 +2,12 @@
     "title": "Создание виртуальной машины с использованием PowerShell",
     "shortName": "lab10",
     "materialType": "lab",
-    "description": "В этом пошаговом руководстве мы настроим Cloud Shell, воспользуемся модулем Azure PowerShell для создания группы ресурсов и виртуальной машины, а также рассмотрим рекомендации Помощника по Azure.",
-    "markingScheme": { "$ref": "./assessment/marking-scheme.json" },
+    "description": "Сценарии на языке PowerShell являются мощным инструментом автоматизации рутинных задач в информационной инфраструктуре, в том числе и для автоматического управления ресурсами инфраструктуры облака Azure\n\nВ данной лаборатной работе вы создаете сценарий автоматизированного развертывания виртуальной машины с использованием PowerShell.",
     "deploy": { "$ref": "./deploy" },
     "text": { "$ref": "./README.md" },
     "assets": { "$ref": "./assets" },
+    "assessment": { "$ref": "./assessment.json" },
+    "testcase": { "$ref": "./assessment/testcases.d" },
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",

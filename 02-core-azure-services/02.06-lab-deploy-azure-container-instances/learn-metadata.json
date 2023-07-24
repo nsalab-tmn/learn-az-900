@@ -2,16 +2,17 @@
     "title": "Развертывание экземпляров контейнеров Azure",
     "shortName": "lab03",
     "materialType": "lab",
-    "description": "В этом пошаговом руководстве мы создадим, настроим и развернем контейнер, используя службу «Экземпляры контейнеров Azure» (ACI) на портале Azure. Этот контейнер представляет собой веб-приложение, отображающее статическую HTML-страницу с приветствием экземпляров контейнеров Azure.",
-    "markingScheme": { "$ref": "./assessment/marking-scheme.json" },
+    "description": "В данной лабораторной работе вы изучаете, как развернуть контейнер, используя службу «Экземпляры контейнеров Azure» (ACI) на портале Azure. Этот контейнер представляет собой веб-приложение, отображающее статическую HTML-страницу с приветствием экземпляров контейнеров Azure.",
     "deploy": { "$ref": "./deploy" },
     "text": { "$ref": "./README.md" },
     "assets": { "$ref": "./assets" },
+    "assessment": { "$ref": "./assessment.json" },
+    "testcase": { "$ref": "./assessment/testcases.d" },
     "answerSchema": {
         "type": "object",
         "additionalProperties": false,
         "properties": {
-            "endpoint_url": {
+            "answer_endpoint_url": {
                 "type": "string",
                 "title": "URL-адрес контейнера",
                 "placeholder": "https://example.com"

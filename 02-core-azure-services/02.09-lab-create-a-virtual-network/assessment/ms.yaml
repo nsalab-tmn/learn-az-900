@@ -1,0 +1,28 @@
+Criterions:
+  - code: A
+    name: Создание виртуальной сети
+    subCriterions:
+      - name: Создание виртуальной сети
+        code: 1
+        aspects:
+          - name: "Создание виртуальной сети"
+            code: 1
+            description: 
+            skills: []
+            max_mark: 1
+            steps: !include A.01.01.yaml
+            result:
+          - name: "Создание первой виртуальной машины"
+            code: 2
+            description: 
+            skills: []
+            max_mark: 0.5
+            steps: !include A.01.02.yaml
+            result:
+          - name: "Создание второй виртуальной машины"
+            code: 2
+            description: 
+            skills: []
+            max_mark: 0.5
+            steps: !include A.01.03.yaml
+            result:            

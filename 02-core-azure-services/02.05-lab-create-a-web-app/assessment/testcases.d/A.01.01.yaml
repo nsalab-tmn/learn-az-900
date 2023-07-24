@@ -1,0 +1,16 @@
+- name: Создание веб-приложения
+  code: s1
+  type: check
+  result:
+  device: local
+  action_chain:
+    - action: run_shell_commands
+      action_vars:
+        commands:
+          - az login --service-principal --username {client_id} --password {client_secret} --tenant {tenant_id}
+    - action: verify_output
+      action_vars:
+        command: az webapp list --resource-group {learn_rg} --query "[?starts_with(name,'myDockerWebApp')]"
+        tags_are_present: True
+        assert_tags:
+          - "myDockerWebApp"

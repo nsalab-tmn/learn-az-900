@@ -2,16 +2,17 @@
     "title": "Создание веб-приложения",
     "shortName": "lab02",
     "materialType": "lab",
-    "description": "В этой лабораторной работе мы создадим веб-приложение, выполняющее контейнер Docker. Этот контейнер содержит приветственное сообщение.",
-    "markingScheme": { "$ref": "./assessment/marking-scheme.json" },
+    "description": "Служба приложений Azure фактически представляет собой набор из четырех служб, каждая из которых упрощает размещение и выполнение веб-приложений. Эти четыре службы (веб-приложения, мобильные приложения, приложения API и Logic Apps) выглядят по-разному, однако в работе довольно похожи друг на друга. \n\nВ данной лабораторной работе вы тестируете возможности создания веб-приложений средствами портала облачного провайдера.",
     "deploy": { "$ref": "./deploy" },
     "text": { "$ref": "./README.md" },
     "assets": { "$ref": "./assets" },
+    "assessment": { "$ref": "./assessment.json" },
+    "testcase": { "$ref": "./assessment/testcases.d" },
     "answerSchema": {
         "type": "object",
         "additionalProperties": false,
         "properties": {
-            "endpoint_url": {
+            "answer_endpoint_url": {
                 "type": "string",
                 "title": "URL-адрес приложения",
                 "placeholder": "https://example.com"

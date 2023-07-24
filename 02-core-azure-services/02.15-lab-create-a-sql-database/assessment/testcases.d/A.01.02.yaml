@@ -1,0 +1,18 @@
+- name: Создание базы данных
+  code: s1
+  type: check
+  result:
+  device: local
+  action_chain:
+    - action: run_shell_commands
+      action_vars:
+        commands:
+          - az login --service-principal --username {client_id} --password {client_secret} --tenant {tenant_id}
+          - server=$(az sql server list --resource-group {learn_rg} --query "[?starts_with(name,'sqlserver')].name|[0]")
+          - name=$(echo $server | tr -d '"')
+    - action: verify_output
+      action_vars:
+        command: az sql db list --server $name --resource-group {learn_rg} --query "[?name=='db1'].name"
+        tags_are_present: True
+        assert_tags:
+          - "db1"

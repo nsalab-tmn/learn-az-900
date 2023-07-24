@@ -1,0 +1,14 @@
+Criterions:
+  - code: A
+    name: Внедрение хранилища ключей Azure
+    subCriterions:
+      - name: Внедрение хранилища ключей Azure
+        code: 1
+        aspects:
+          - name: Создание хранилища ключей Azure Key Vault
+            code: 1
+            description: 
+            skills: []
+            max_mark: 1
+            steps: !include A.01.01.yaml
+            result:

@@ -1,0 +1,5 @@
+{
+    "./assessment/ms.yaml":	"https://github.com/nsalab-tmn/learn-az-900/blob/03-core-solutions-and-management-tools/03.14-lab-create-a-vm-with-the-cli/assessment/ms.yaml?ref=assessent_with_pyats",
+    "./assessment/testbed.yaml":	"https://github.com/nsalab-tmn/learn-az-900/blob/03-core-solutions-and-management-tools/03.14-lab-create-a-vm-with-the-cli/assessment/testbed.yaml?ref=assessent_with_pyats",
+    "./assessment/parameters.yaml":	"https://github.com/nsalab-tmn/learn-az-900/blob/03-core-solutions-and-management-tools/03.14-lab-create-a-vm-with-the-cli/assessment/parameters.yaml?ref=assessent_with_pyats"
+}

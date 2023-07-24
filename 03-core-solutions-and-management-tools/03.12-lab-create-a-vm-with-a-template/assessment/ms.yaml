@@ -1,0 +1,14 @@
+Criterions:
+  - code: A
+    name: Создание виртуальной машины с использованием шаблона
+    subCriterions:
+      - name: Создание виртуальной машины с использованием шаблона
+        code: 1
+        aspects:
+          - name: Создание виртуальной машины с использованием шаблона
+            code: 1
+            description: 
+            skills: []
+            max_mark: 1
+            steps: !include A.01.01.yaml
+            result:

@@ -1,0 +1,21 @@
+Criterions:
+  - code: A
+    name: Создание виртуальной машины с использованием CLI
+    subCriterions:
+      - name: Создание виртуальной машины с использованием CLI
+        code: 1
+        aspects:
+          - name: Настройка Cloud Shell
+            code: 1
+            description: 
+            skills: []
+            max_mark: 1
+            steps: !include A.01.01.yaml
+            result:
+          - name: Создание виртуальной машины
+            code: 1
+            description: 
+            skills: []
+            max_mark: 1
+            steps: !include A.01.02.yaml
+            result:

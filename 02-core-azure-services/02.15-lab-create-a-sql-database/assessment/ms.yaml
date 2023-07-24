@@ -1,0 +1,22 @@
+Criterions:
+  - code: A
+    name: Создание базы данных SQL
+    subCriterions:
+      - name: Создание базы данных SQL
+        code: 1
+        aspects:
+          - name: Создание сервера базы данных
+            code: 1
+            description: 
+            skills: []
+            max_mark: 1
+            steps: !include A.01.01.yaml
+            result:
+          - name: Создание базы данных
+            code: 1
+            description: 
+            skills: []
+            max_mark: 1
+            steps: !include A.01.02.yaml
+            result:      
+         
